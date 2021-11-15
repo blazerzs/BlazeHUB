@@ -239,6 +239,6 @@ local LocalPlayerSection = Player:NewSection("LocalPlayer")
 local CreditSection = Credits:NewSection("Credits")
     CreditSection:NewLabel("UI - Kavo UI Library")
     CreditSection:NewButton("Copy Discord Server Link", "This will copy the Discord Server link to your clipboard.", function()
-    	setclipboard("https://discord.gg/cMZQJzZKnd")
+    	setclipboard("https://discord.gg/Invalid")
     end)
 end
